@@ -13,7 +13,6 @@
     "BOTNAME": "Bot_Phấn Đông",
     "PREFIX": "&",
     "ADMINBOT": [
-        ""
     ],
     "DATABASE": {
         "sqlite": {
