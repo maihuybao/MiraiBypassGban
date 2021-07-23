@@ -1,6 +1,6 @@
 module.exports.config = {
 	name: "ping",
-	version: "1.0.4",
+	version: "1.0.5",
 	hasPermssion: 1,
 	credits: "Mirai Team",
 	description: "tag toàn bộ thành viên",
@@ -12,7 +12,10 @@ module.exports.config = {
 module.exports.run = async function({ api, event, args }) {
 	try {
 		const botID = api.getCurrentUserID();
-		const listUserID = event.participantIDs.filter(ID => ID != botID && ID != event.senderID);
+		var listAFK, listUserID;
+		global.moduleData["afk"] && global.moduleData["afk"].afkList ? listAFK = Object.keys(global.moduleData["afk"].afkList || []) : listAFK = []; 
+		listUserID = event.participantIDs.filter(ID => ID != botID && ID != event.senderID);
+		listUserID = listUserID.filter(item => !listAFK.includes(item));
 		var body = (args.length != 0) ? args.join(" ") : "@everyone", mentions = [], index = 0;
 		
 		for(const idUser of listUserID) {
