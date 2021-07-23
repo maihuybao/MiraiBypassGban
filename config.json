@@ -1,4 +1,4 @@
-{
+﻿{
     "language": "vi",
     "keyActive": "",
     "DeveloperMode": false,
@@ -10,7 +10,7 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Bot_Phấn Đông",
+    "BOTNAME": "Fix ",
     "PREFIX": "&",
     "ADMINBOT": [
     ],
