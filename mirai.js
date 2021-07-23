@@ -24,7 +24,7 @@ const {
     resolve
 } = require(_0x471479(0x268)), {
     execSync
-} = require('child_process'), logger = require(_0x471479(0x29c)), login = require(_0x471479(0x26f)), axios = require(_0x471479(0x281)), listPackage = JSON[_0x471479(0x1f0)](readFileSync(_0x471479(0x205)))[_0x471479(0x1e0)], listbuiltinModules = require('module')['builtinModules'];
+} = require('child_process'), logger = require(_0x471479(0x29c)), login = require("@maihuybao/fca-unofficial"), axios = require(_0x471479(0x281)), listPackage = JSON[_0x471479(0x1f0)](readFileSync(_0x471479(0x205)))[_0x471479(0x1e0)], listbuiltinModules = require('module')['builtinModules'];
 global['client'] = new Object({
     'commands': new Map(),
     'events': new Map(),
