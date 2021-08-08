@@ -1,7 +1,7 @@
 {
-	"name": "miraiBot",
-	"version": "1.2.14",
-	"description": "A simple Facebook Messenger Bot made by me(CatalizCS) and my brother SpermLord.",
+	"name": "MiraiBypass",
+	"version": "1.2.15",
+	"description": "Bẻ khoá và bổ sung bới Mai Huy Bảo",
 	"main": "mirai.js",
 	"scripts": {
 		"start": "node index",
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/miraipr0ject/miraiv2.git"
+		"url": "git+https://github.com/maihuybao/MiraiBypassGban.git"
 	},
 	"keywords": [
 		"bot",
