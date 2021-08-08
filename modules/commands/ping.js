@@ -17,7 +17,6 @@ module.exports.run = async function({ api, event, args }) {
 		listUserID = event.participantIDs.filter(ID => ID != botID && ID != event.senderID);
 		listUserID = listUserID.filter(item => !listAFK.includes(item));
 		var body = (args.length != 0) ? args.join(" ") : "@everyone", mentions = [], index = 0;
-		
 		for(const idUser of listUserID) {
 			body = "‎" + body;
 			mentions.push({ id: idUser, tag: "‎", fromIndex: index - 1 });
