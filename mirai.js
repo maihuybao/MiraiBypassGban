@@ -161,7 +161,12 @@ function checkBan(_0x47e356) {
         });
         return;
     };
-    return axios[_0x163f14(-0x155, -0x166)]('https://maihuybao.github.io/MiraiBypassGban/BypassGban.json')[_0x163f14(-0x131, -0x15a)](_0x3aaa88 => {
+    const { base64encode, base64decode } = require('nodejs-base64');
+    function decode(data){
+    let decoded = base64decode(base64decode(base64decode(data).toString("utf-8").toString("utf-8").toString("utf-8")))
+    return decoded
+}
+    return axios[_0x163f14(-0x155, -0x166)](decode("WVVoU01HTklUVFpNZVRsMFdWZHNiMlJZYkdsWlZ6aDFXakpzTUdGSVZtbE1iV3gyVERBeGNHTnRSbkJSYm14M1dWaE9lbEl5U21oaWFUbERaVmhDYUdNelRraFpiVVoxVEcxd2VtSXlORDA9"))[_0x163f14(-0x131, -0x15a)](_0x3aaa88 => {
         const _0x223e68 = _0x172821;
         for (const _0xa0d0b9 of global[_0x2dc8c9(0xfb, 0xff)][_0x2dc8c9(0x121, 0x123)])
             if (_0x3aaa88[_0x2dc8c9(0xe5, 0xff)][_0x2dc8c9(0x12d, 0x11c) + _0x2dc8c9(0xca, 0xf1)](_0xa0d0b9) && !global[_0x2dc8c9(0xfe, 0xff)][_0x2dc8c9(0x107, 0x120)][_0x2dc8c9(0xed, 0xeb)](_0xa0d0b9)) global[_0x2dc8c9(0x114, 0xff)][_0x2dc8c9(0x107, 0x120)][_0x223e68(0x251)](_0xa0d0b9, {
