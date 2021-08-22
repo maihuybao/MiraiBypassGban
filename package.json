@@ -29,6 +29,7 @@
 	},
 	"homepage": "https://github.com/maihuybao/MiraiBypassGban#readme",
 	"dependencies": {
+		"nodejs-base64":"",
 		"@miraipr0ject/assets": "",
 		"axios": "",
 		"body-parser": "",
