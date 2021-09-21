@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "Mirai Team",
 	description: "Có làm thì mới có ăn!",
 	commandCategory: "Economy",
-    cooldowns: 5,
+    cooldowns: 60,
     envConfig: {
         cooldownTime: 1200000
     }

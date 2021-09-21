@@ -1,0 +1,723 @@
+{
+    "fish": [{
+            "name": "Bitterling",
+            "catch": "I caught a bitterling! It's mad at me, but only a little.",
+            "rarity": "Common",
+            "price": 90,
+            "size": [10, 12],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Pale Chub",
+            "catch": "I caught a pale chub! That name seems a bit judgy...",
+            "rarity": "Common",
+            "price": 20,
+            "size": [8, 12],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Crucian Carp",
+            "catch": "I caught a crucian carp! My skills are sharp!",
+            "rarity": "Common",
+            "price": 16,
+            "size": [29, 31],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Dace",
+            "catch": "I caught a dace! Hope I have some space!",
+            "rarity": "Common",
+            "price": 24,
+            "size": [35, 37],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Carp",
+            "catch": "I caught a carp! If I catch another they can carpool!",
+            "rarity": "Very Common",
+            "price": 30,
+            "size": [74, 76],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Koi",
+            "catch": "I caught a koi! I don't know why it's so shy... or such a bad speller...",
+            "rarity": "Rare",
+            "price": 400,
+            "size": [119, 121],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Goldfish",
+            "catch": "I caught a goldfish! It's worth its weight in fish!",
+            "rarity": "Rare",
+            "price": 130,
+            "size": [14, 16],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Pop-Eyed Goldfish",
+            "catch": "I caught a pop-eyed goldfish! It looks so...surprised!",
+            "rarity": "Rare",
+            "price": 130,
+            "size": [11, 13],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Ranchu Goldfish",
+            "catch": "I caught a Ranchu Goldfish! But I prefer balsamicu goldfish!",
+            "rarity": "Rare",
+            "price": 450,
+            "size": [14, 16],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Killifish",
+            "catch": "I caught a killifish! The streams are safe again.",
+            "rarity": "Uncommon",
+            "price": 30,
+            "size": [4, 5],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8]
+        },
+        {
+            "name": "Crawfish",
+            "catch": "I caught a crawfish! Or else it's a lobster and I'm a giant!",
+            "rarity": "Common",
+            "price": 20,
+            "size": [12, 13],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8, 9]
+        },
+        {
+            "name": "Soft-Shelled Turtle",
+            "catch": "I caught a soft-shelled turtle! I should take a shellfie!",
+            "rarity": "Uncommon",
+            "price": 375,
+            "size": [29, 31],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [8, 9]
+        },
+        {
+            "name": "Snapping Turtle",
+            "catch": "I caught a snapping turtle! How can it snap without fingers?",
+            "rarity": "Rare",
+            "price": 500,
+            "size": [25, 47],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8, 9, 10]
+        },
+        {
+            "name": "Tadpole",
+            "catch": "I caught a tadpole... It's just a tad small.",
+            "rarity": "Uncommon",
+            "price": 10,
+            "size": [3, 5],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [3, 4, 5, 6, 7]
+        },
+        {
+            "name": "Frog",
+            "catch": "I caught a frog! Hop to it, froggie!",
+            "rarity": "Common",
+            "price": 12,
+            "size": [12, 14],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [5, 6, 7, 8]
+        },
+        {
+            "name": "Freshwater Goby",
+            "catch": "I caught a freshwater goby! Time to go bye-bye!",
+            "rarity": "Rare",
+            "price": 40,
+            "size": [14, 16],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Loach",
+            "catch": "I caught a loach! It's...looking at me with reproach.",
+            "rarity": "Common",
+            "price": 40,
+            "size": [19, 21],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [3, 4, 5]
+        },
+        {
+            "name": "Catfish",
+            "catch": "I caught a catfish! Do you think it has 9 lives?",
+            "rarity": "Common",
+            "price": 80,
+            "size": [59, 61],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Giant Snakehead",
+            "catch": "I caught a giant snakehead! But where's the rest of the snake?",
+            "rarity": "Rare",
+            "price": 550,
+            "size": [80, 90],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Bluegill",
+            "catch": "I caught a bluegill! Do you think it calls me \"pinklung\"?",
+            "rarity": "common",
+            "price": 18,
+            "size": [23, 28],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Yellow Perch",
+            "catch": "I caught a yellow perch! Those yellow birds have to sit somewhere!",
+            "rarity": "Common",
+            "price": 30,
+            "size": [33, 38],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 10, 11, 12]
+        },
+        {
+            "name": "Black Bass",
+            "catch": "I caught a black bass! The most metal of all fish!",
+            "rarity": "Very Common",
+            "price": 40,
+            "size": [50, 100],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Tilapia",
+            "catch": "I caught a tilapia! It makes me happy-a!",
+            "rarity": "n",
+            "price": 80,
+            "size": [16, 40],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9, 10]
+        },
+        {
+            "name": "Pike",
+            "catch": "I caught a pike! Oh, yes, I like!",
+            "rarity": "Uncommon",
+            "price": 180,
+            "size": [150, 165],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [9, 10, 11, 12]
+        },
+        {
+            "name": "Pond Smelt",
+            "catch": "I caught a pond smelt! It could sure use a bath!",
+            "rarity": "Very common",
+            "price": 30,
+            "size": [18, 22],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 12]
+        },
+        {
+            "name": "Sweetfish",
+            "catch": "I caught a sweetfish! Hmmm. I've had sweeter!",
+            "rarity": "Uncommon",
+            "price": 90,
+            "size": [23, 28],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Cherry Salmon",
+            "catch": "I caught a cherry salmon! It's the perfect topper for a marlin sundae!",
+            "rarity": "Common",
+            "price": 100,
+            "size": [33, 38],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+        {
+            "name": "Char",
+            "catch": "I caught a char! Now I'm gonna sit on it!",
+            "rarity": "Rare",
+            "price": 380,
+            "size": [45, 55],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+        {
+            "name": "Golden Trout",
+            "catch": "I caught a golden trout! But the real treasure? Friendship.",
+            "rarity": "Very Rare",
+            "price": 1500,
+            "size": [15, 30],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 9, 10, 11]
+        },
+        {
+            "name": "Stringfish",
+            "catch": "OH MY GOSH! I caught a stringifish! Five more and I'll have a guitarfish!",
+            "rarity": "Very Rare",
+            "price": 1500,
+            "size": [190, 210],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 12]
+        },
+        {
+            "name": "Salmon",
+            "catch": "I caught a salmon! Oh, that's slammin'!",
+            "rarity": "Very Common",
+            "price": 70,
+            "size": [85, 95],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [9]
+        },
+        {
+            "name": "King Salmon",
+            "catch": "Woohoo! Woohoo! I caught a king salmon! Where are his horses and men?",
+            "rarity": "Rare",
+            "price": 180,
+            "size": [100, 160],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [9]
+        },
+        {
+            "name": "Mitten Crab",
+            "catch": "I caught a mitten crab! I'm smitten, crab!",
+            "rarity": "Rare",
+            "price": 200,
+            "size": [7, 9],
+            "time": [0, 1, 2, 3, 4, 5, 6, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [9, 10, 11]
+        },
+        {
+            "name": "Guppy",
+            "catch": "I caught a guppy! Welcome to the team, newbie!",
+            "rarity": "Rare",
+            "price": 130,
+            "size": [3, 5],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [4, 5, 6, 7, 8, 9, 10, 11]
+        },
+        {
+            "name": "Nibble Fish",
+            "catch": "I caught a nibble fish! Do you regret nibbling now?",
+            "rarity": "Uncommon",
+            "price": 150,
+            "size": [6, 8],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [5, 6, 7, 8, 9]
+        },
+        {
+            "name": "Angelfish",
+            "catch": "I caught an angelfish! That other fish told me to do it!",
+            "rarity": "Rare",
+            "price": 300,
+            "size": [10, 13],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [5, 6, 7, 8, 9, 10]
+        },
+        {
+            "name": "Betta",
+            "catch": "I caught a betta! I betta not drop it!",
+            "rarity": "Rare",
+            "price": 250,
+            "size": [6, 8],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [6, 7, 8, 9, 10]
+        },
+        {
+            "name": "Neon Tetra",
+            "catch": "I caught a neon tetra! Wasn't hard to track.",
+            "rarity": "Uncommon",
+            "price": 50,
+            "size": [1, 2],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [4, 5, 6, 7, 8, 9, 10, 11]
+        },
+        {
+            "name": "Rainbowfish",
+            "catch": "I caught a rainbowfish! Where's my pot of goldfish?",
+            "rarity": "Uncommon",
+            "price": 80,
+            "size": [10, 16],
+            "time": [9, 10, 11, 12, 13, 14, 15, 16],
+            "months": [5, 6, 7, 8, 9, 10]
+        },
+        {
+            "name": "Piranha",
+            "catch": "I caught a piranha! Or did it catch ME?!",
+            "rarity": "Rare",
+            "price": 250,
+            "size": [27, 33],
+            "time": [0, 1, 2, 3, 4, 9, 10, 11, 12, 13, 14, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Arowana",
+            "catch": "I caught an arowana! But where's its bow?",
+            "rarity": "Rare",
+            "price": 1000,
+            "size": [65, 75],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Dorado",
+            "catch": "I caught a dorado! ♪I say \"Dorado\", you say \"Doraydo.\"♪",
+            "rarity": "Rare",
+            "price": 1500,
+            "size": [87, 94],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Gar",
+            "catch": "I caught a gar! It ain't gettin' too far!",
+            "rarity": "Rare",
+            "price": 600,
+            "size": [190, 230],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Arapaima",
+            "catch": "I caught an arapaima! How did it get here? Arapaiknow!",
+            "rarity": "Rare",
+            "price": 1000,
+            "size": [290, 310],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Saddled Bichir",
+            "catch": "Wow! A saddled bichir! Now I'm saddled with guilt!",
+            "rarity": "Rare",
+            "price": 400,
+            "size": [55, 65],
+            "time": [0, 1, 2, 3, 4, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Sturgeon",
+            "catch": "I caught a sturgeon! Wonder if it can perform sturgery...",
+            "rarity": "Rare",
+            "price": 1000,
+            "size": [490, 530],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [3, 4, 5, 6, 7, 8, 9]
+        },
+        {
+            "name": "Sea Butterfly",
+            "catch": "I caught a sea butterfly! Try not to confuse it for a sea moth!",
+            "rarity": "Common",
+            "price": 100,
+            "size": [4, 6],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 12]
+        },
+        {
+            "name": "Sea Horse",
+            "catch": "I caught a sea horse! But... where's its sea jockey?",
+            "rarity": "Common",
+            "price": 110,
+            "size": [7, 9],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8, 9, 10, 11]
+        },
+        {
+            "name": "Clown Fish",
+            "catch": "I caught a clown fish! How many can fit in a carfish?",
+            "rarity": "Uncommon",
+            "price": 65,
+            "size": [14, 16],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8, 9]
+        },
+        {
+            "name": "Surgeonfish",
+            "catch": "I caught a surgeonfish! Scalpel! Forceps! Fish hook!",
+            "rarity": "Uncommon",
+            "price": 100,
+            "size": [29, 34],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8, 9]
+        },
+        {
+            "name": "Butterfly Fish",
+            "catch": "I caught a butterfly fish! Did it change from a caterpillar fish?",
+            "rarity": "Uncommon",
+            "price": 100,
+            "size": [16, 20],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8, 9]
+        },
+        {
+            "name": "Napoleonfish",
+            "catch": "I caught a Napoleonfish! Viva la me!",
+            "rarity": "Rare",
+            "price": 1000,
+            "size": [190, 210],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [7, 8]
+        },
+        {
+            "name": "Zebra Turkeyfish",
+            "catch": "I caught a zebra turkeyfish! Land, air, water-make up your mind!",
+            "rarity": "Common",
+            "price": 50,
+            "size": [28, 32],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [4, 5, 6, 7, 8, 9, 10, 11]
+        },
+        {
+            "name": "Blowfish",
+            "catch": "I caught a blowfish! And that's not just hot air!",
+            "rarity": "Rare",
+            "price": 500,
+            "size": [22, 28],
+            "time": [0, 1, 2, 3, 4, 21, 22, 23],
+            "months": [1, 2, 11, 12]
+        },
+        {
+            "name": "Puffer Fish",
+            "catch": "I caught a puffer fish! I thought you would be tougher, fish!",
+            "rarity": "Uncommon",
+            "price": 24,
+            "size": [32, 38],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [7, 8, 9]
+        },
+        {
+            "name": "Anchovy",
+            "catch": "I caught an anchovy! Stay away from my pizza!",
+            "rarity": "Common",
+            "price": 20,
+            "size": [11, 18],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Horse Mackerel",
+            "catch": "I caught a horse mackerel! Of course, Mack...er...el.",
+            "rarity": "Very Common",
+            "price": 15,
+            "size": [32, 38],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Barred Knifejaw",
+            "catch": "I caught a barred knifejaw! They must have a hard time eating!",
+            "rarity": "Rare",
+            "price": 500,
+            "size": [55, 65],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [3, 4, 5, 6, 7, 8, 9, 10, 11]
+        },
+        {
+            "name": "Sea Bass",
+            "catch": "I caught a sea bass! No, wait-it's at least a C+!",
+            "rarity": "Very Common",
+            "price": 40,
+            "size": [90, 110],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Red Snapper",
+            "catch": "I caught a red snapper! It looks pretty dapper!",
+            "rarity": "Uncommon",
+            "price": 300,
+            "size": [85, 95],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Dab",
+            "catch": "I caught a dab! Not bad!",
+            "rarity": "Common",
+            "price": 30,
+            "size": [45, 55],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 10, 11, 12]
+        },
+        {
+            "name": "Olive Flounder",
+            "catch": "I caught an olive flounder! That's not the pits!",
+            "rarity": "Uncommon",
+            "price": 80,
+            "size": [75, 85],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Squid",
+            "catch": "I caught a squid! Do they...not actually \"bloop\"?",
+            "rarity": "Common",
+            "price": 50,
+            "size": [33, 39],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 12]
+        },
+        {
+            "name": "Moray Eel",
+            "catch": "I caught a moray eel! And I was like, \"No way! Deal!\"",
+            "rarity": "Rare",
+            "price": 200,
+            "size": [75, 85],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Ribbon Eel",
+            "catch": "I caught a ribbon eel! Good for tying on to presents!",
+            "rarity": "Uncommon",
+            "price": 60,
+            "size": [115, 125],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Tuna",
+            "catch": "I caught a tuna! It's a little off-key!",
+            "rarity": "Rare",
+            "price": 700,
+            "size": [215, 240],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 11, 12]
+        },
+        {
+            "name": "Blue Marlin",
+            "catch": "I caught a blue marlin! Listen to this fish. It's got a point.",
+            "rarity": "Very Rare",
+            "price": 1000,
+            "size": [230, 270],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [7, 8, 9]
+        },
+        {
+            "name": "Giant Trevally",
+            "catch": "I caught a giant trevally! Pfff. I've seen bigger!",
+            "rarity": "Rare",
+            "price": 450,
+            "size": [70, 80],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Mahi-Mahi",
+            "catch": "I caught a mahi-mahi! It's all mahine-mahine.",
+            "rarity": "Rare",
+            "price": 600,
+            "size": [86, 140],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [5, 6, 7, 8, 9, 10, 11]
+        },
+        {
+            "name": "Ocean Sunfish",
+            "catch": "I caught an ocean sunfish! My day is brighter already!",
+            "rarity": "Rare",
+            "price": 400,
+            "size": [270, 320],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Ray",
+            "catch": "I caught a ray! That made my day!",
+            "rarity": "Rare",
+            "price": 300,
+            "size": [110, 130],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [8, 9, 10, 11]
+        },
+        {
+            "name": "Saw Shark",
+            "catch": "I caught a saw shark! And it didn't even see me coming!",
+            "rarity": "Rare",
+            "price": 1200,
+            "size": [145, 155],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Hammerhead Shark",
+            "catch": "I caught a hammerhead shark! I really nailed it!",
+            "rarity": "Rare",
+            "price": 800,
+            "size": [250, 270],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Great White Shark",
+            "catch": "I caught a shark! GAH! Why am I holding it?!",
+            "rarity": "Rare",
+            "price": 1500,
+            "size": [540, 560],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Whale Shark",
+            "catch": "Ohmigosh! I caught a whale shark! It could've swallowed me up!",
+            "rarity": "Very Rare",
+            "price": 1300,
+            "size": [960, 1060],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Suckerfish",
+            "catch": "I caught a suckerfish! I thought it was a shark! Oh, wait - now I get it. \"Sucker\"...",
+            "rarity": "Rare",
+            "price": 150,
+            "size": [35, 70],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [6, 7, 8, 9]
+        },
+        {
+            "name": "Football Fish",
+            "catch": "I caught a football fish! Some countries call it a soccer fish!",
+            "rarity": "Uncommon",
+            "price": 250,
+            "size": [4, 60],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 11, 12]
+        },
+        {
+            "name": "Oarfish",
+            "catch": "I caught an oarfish! I hope I catch morefish!",
+            "rarity": "Rare",
+            "price": 900,
+            "size": [115, 125],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 12]
+        },
+        {
+            "name": "Barreleye",
+            "catch": "I caught a barreleye! Like eyeing fish in a barrel!",
+            "rarity": "Very Rare",
+            "price": 1500,
+            "size": [15, 20],
+            "time": [0, 1, 2, 3, 4, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "name": "Coelacanth",
+            "catch": "Blast from the past! I caught a coelacanth! Think positive! Be a coela-CAN!",
+            "rarity": "Very Rare",
+            "price": 1500,
+            "size": [165, 175],
+            "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+            "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+    ]
+}

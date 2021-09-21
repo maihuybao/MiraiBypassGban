@@ -1,0 +1,96 @@
+{
+    "fishingrod": {
+        "rodType": 7,
+        "enchantRod": {},
+        "rodName": "ULTRA ULTIMATE FISHING ROD",
+        "cooldownTime": 5,
+        "durabilityDefault": 1000000000000000,
+        "durability": 999999999990149,
+        "moneyFix": 37387,
+        "rateBroken": [
+            1,
+            10000
+        ]
+    },
+    "inventory": [
+        {
+            "name": "Loach",
+            "rarity": "Common",
+            "price": 40,
+            "size": [
+                19,
+                21
+            ],
+            "time": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        }
+    ],
+    "lastTimeFishing": 1630589117,
+    "point": 40,
+    "totalMoney": 0,
+    "totalCatch": 1
+}

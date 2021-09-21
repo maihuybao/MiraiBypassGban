@@ -1,0 +1,66 @@
+{
+    "fishingrod": {
+        "rodType": 4,
+        "enchantRod": {},
+        "rodName": "Golden fishing rod",
+        "cooldownTime": 30,
+        "durabilityDefault": 350,
+        "durability": -37,
+        "moneyFix": 144,
+        "rateBroken": [
+            70,
+            150
+        ]
+    },
+    "inventory": [
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        }
+    ],
+    "lastTimeFishing": 1630362380,
+    "point": 2216,
+    "totalMoney": 0,
+    "totalCatch": 19
+}

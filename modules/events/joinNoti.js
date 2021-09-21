@@ -14,7 +14,7 @@ module.exports.run = async function({ api, event, Users }) {
 	const { threadID } = event;
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "Bypass bởi Mai Huy Bảo" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-		return api.sendMessage(`Connected successfully! This bot was made by someone and Bypass Gban by Mai Huy Bảo`, threadID);
+		return api.sendMessage(`Kết nối thành công! Admin bot: Mai Huy Bảo, Vương Thanh Diệu, Hùng Channels`, threadID);
 	}
 	else {
 		try {
@@ -44,7 +44,7 @@ module.exports.run = async function({ api, event, Users }) {
 			(typeof threadData.customJoin == "undefined") ? msg = "Welcome aboard {name}.\nChào mừng đã đến với {threadName}.\n{type} là thành viên thứ {soThanhVien} của nhóm 🥳" : msg = threadData.customJoin;
 			msg = msg
 			.replace(/\{name}/g, nameArray.join(', '))
-			.replace(/\{type}/g, (memLength.length > 1) ?  'các bạn' : 'bạn')
+			.replace(/\{type}/g, (memLength.length > 1) ?  'Các bạn' : 'Bạn')
 			.replace(/\{soThanhVien}/g, memLength.join(', '))
 			.replace(/\{threadName}/g, threadName);
 

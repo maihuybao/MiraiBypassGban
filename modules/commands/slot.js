@@ -6,7 +6,7 @@ module.exports.config = {
     description: "Đánh bạc bằng hình thức hoa quả",
     commandCategory: "game-sp",
     usages: "[số coin cần đặt]",
-    cooldowns: 5,
+    cooldowns: 60,
 };
 
 module.exports.languages = {

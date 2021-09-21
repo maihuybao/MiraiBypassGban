@@ -1,0 +1,18 @@
+{
+    "tickle": "https://api.nekos.dev/api/v3/images/sfw/gif/tickle",
+    "slap": "https://api.nekos.dev/api/v3/images/sfw/gif/slap",
+    "poke": "https://api.nekos.dev/api/v3/images/sfw/gif/poke",
+    "pat": "https://api.nekos.dev/api/v3/images/sfw/gif/pat",
+    "nekoGif": "https://api.nekos.dev/api/v3/images/sfw/gif/neko",
+    "kiss": "https://api.nekos.dev/api/v3/images/sfw/gif/kiss",
+    "hug": "https://api.nekos.dev/api/v3/images/sfw/gif/hug",
+    "feed": "https://api.nekos.dev/api/v3/images/sfw/gif/feed",
+    "neko": "https://api.nekos.dev/api/v3/images/sfw/img/neko",
+    "kiminonawa": "https://api.nekos.dev/api/v3/images/sfw/img/kiminonawa",
+    "HoloAvatar": "https://api.nekos.dev/api/v3/images/sfw/img/holo_avatar",
+    "smug": "https://api.nekos.dev/api/v3/images/sfw/gif/smug",
+    "baka": "https://api.nekos.dev/api/v3/images/sfw/gif/baka",
+    "wallpaper": "https://api.nekos.dev/api/v3/images/sfw/img/wallpaper",
+    "avatar": "https://api.nekos.dev/api/v3/images/sfw/img/no_tag_avatar",
+    "waifu": "https://api.nekos.dev/api/v3/images/sfw/img/waifu"
+}
