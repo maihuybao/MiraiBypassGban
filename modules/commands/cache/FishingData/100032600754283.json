@@ -1,0 +1,66 @@
+{
+    "fishingrod": {
+        "rodType": 2,
+        "enchantRod": {},
+        "rodName": "Stone fishing rod",
+        "cooldownTime": 50,
+        "durabilityDefault": 200,
+        "durability": 200,
+        "moneyFix": 83,
+        "rateBroken": [
+            30,
+            100
+        ]
+    },
+    "inventory": [
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        }
+    ],
+    "lastTimeFishing": 0,
+    "point": 0,
+    "totalMoney": 0,
+    "totalCatch": 0
+}

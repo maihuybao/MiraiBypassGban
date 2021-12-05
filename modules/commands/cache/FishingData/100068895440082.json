@@ -1,0 +1,65 @@
+{
+    "fishingrod": {
+        "rodType": 7,
+        "enchantRod": {},
+        "rodName": "ULTRA ULTIMATE FISHING ROD",
+        "durabilityDefault": 1000000000000000,
+        "durability": 1000000000000000,
+        "moneyFix": 17108,
+        "rateBroken": [
+            1,
+            10000
+        ]
+    },
+    "inventory": [
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        }
+    ],
+    "lastTimeFishing": 0,
+    "point": 0,
+    "totalMoney": 0,
+    "totalCatch": 0
+}

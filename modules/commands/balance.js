@@ -6,7 +6,7 @@ module.exports.config = {
 	description: "Kiểm tra số tiền của bản thân hoặc người được tag",
 	commandCategory: "economy",
 	usages: "[Tag]",
-	cooldowns: 5
+	cooldowns: 30
 };
 
 module.exports.languages = {

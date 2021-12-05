@@ -1,0 +1,66 @@
+{
+    "fishingrod": {
+        "rodType": 3,
+        "enchantRod": {},
+        "rodName": "Iron fishing rod",
+        "cooldownTime": 40,
+        "durabilityDefault": 500,
+        "durability": 500,
+        "moneyFix": 113,
+        "rateBroken": [
+            30,
+            250
+        ]
+    },
+    "inventory": [
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        }
+    ],
+    "lastTimeFishing": 0,
+    "point": 0,
+    "totalMoney": 0,
+    "totalCatch": 0
+}

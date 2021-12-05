@@ -1,0 +1,134 @@
+{
+    "fishingrod": {
+        "rodType": 3,
+        "enchantRod": {},
+        "rodName": "Iron fishing rod",
+        "cooldownTime": 40,
+        "durabilityDefault": 500,
+        "durability": -124,
+        "moneyFix": 185,
+        "rateBroken": [
+            30,
+            250
+        ]
+    },
+    "inventory": [
+        {
+            "name": "Guppy",
+            "rarity": "Rare",
+            "price": 130,
+            "size": [
+                3,
+                5
+            ],
+            "time": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        },
+        {
+            "name": "Anchovy",
+            "rarity": "Common",
+            "price": 20,
+            "size": [
+                11,
+                18
+            ],
+            "time": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+            ]
+        },
+        {
+            "name": "Ribbon Eel",
+            "rarity": "Uncommon",
+            "price": 60,
+            "size": [
+                115,
+                125
+            ],
+            "time": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        }
+    ],
+    "lastTimeFishing": 1630568550,
+    "point": 210,
+    "totalMoney": 0,
+    "totalCatch": 3
+}

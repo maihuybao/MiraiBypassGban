@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Random lấy ảnh anime! (Safe For Work)",
-	commandCategory: "random-img",
+	commandCategory: "Hình ảnh",
 	usages: "[tag]",
     cooldowns: 5,
 	dependencies: {
