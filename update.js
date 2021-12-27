@@ -72,7 +72,7 @@ function unzip() {
 
 function install () {
     console.log('-> Đang cài đặt bản cập nhật mới');
-    copySync(process.cwd() + '/tmp/main/miraiv2-main/', './');
+    copySync(process.cwd() + '/tmp/main/MiraiBypassGban-main/', './');
     return;
 }
 
