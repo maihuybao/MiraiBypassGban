@@ -102,10 +102,10 @@ module.exports.run = function ({ event, args, api, getText }) {
             const command = global.client.commands.get(moduleList.join("") || "");
             if (!command) return api.sendMessage(getText("moduleNotExist"), threadID, messageID);
             const { name, version, hasPermssion, credits, cooldowns, dependencies } = command.config;
-            return api.sendMessage(getText("infoModule", name.toUpperCase(), credits, version, ((hasPermssion == 0) ? getText("user") : (hasPermssion == 1) ? getText("adminGroup") : gextText("adminBot")), cooldowns, ((Object.keys(dependencies || {})).join(", ") || getText("dontHavePackage"))), threadID, messageID);
+            return api.sendMessage(getText("infoModule", name.toUpperCase(), credits, version, ((hasPermssion == 0) ? getText("user") : (hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), cooldowns, ((Object.keys(dependencies || {})).join(", ") || getText("dontHavePackage"))), threadID, messageID);
         }
         default: {
-            // return global.utils.throwError(this.config.name, threadID, messageID);
+            return global.utils.throwError(this.config.name, threadID, messageID);
         }
     }
 }

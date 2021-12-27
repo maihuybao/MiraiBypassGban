@@ -47,7 +47,7 @@ async function clone() {
 	console.log('-> Đang tải bản cập nhật mới');
 	const response = await axios({
 		method: 'GET',
-		url: "https://github.com/maihuybao/MiraiBypassGban/archive/refs/tags/head.zip",
+		url: "https://github.com/miraiPr0ject/miraiv2/archive/refs/heads/main.zip",
 		responseType: "stream"
 	});
 

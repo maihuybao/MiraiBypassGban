@@ -11,12 +11,12 @@
   "dependencies": {
     "fast-speedtest-api": "^0.3.2",
     "node-superfetch": "^0.2.3",
-    "pidusage": "^2.0.21",
-    "qrcode": "^1.4.4",
+    "pidusage": "^3.0.0",
+    "qrcode": "^1.5.0",
     "sagiri": "^3.1.1",
     "simple-youtube-api": "^5.2.1",
-    "systeminformation": "^5.7.8",
-    "wikijs": "^6.2.1",
-    "ytdl-core": "^4.9.0"
+    "systeminformation": "^5.9.17",
+    "wikijs": "^6.3.2",
+    "ytdl-core": "^4.9.2"
   }
 }

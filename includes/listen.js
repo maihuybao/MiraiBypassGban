@@ -29,7 +29,7 @@ module.exports = function({ api, models }) {
 	//////////////////////////////////////////////////
 	//========= Send event to handle need =========//
 	/////////////////////////////////////////////////
-	
+
 	return (event) => {
 		switch (event.type) {
 			case "message":
@@ -39,7 +39,6 @@ module.exports = function({ api, models }) {
 				handleCommand({ event });
 				handleReply({ event });
 				handleCommandEvent({ event });
-
 				break;
 			case "event":
 				handleEvent({ event });

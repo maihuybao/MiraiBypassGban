@@ -1,5 +1,5 @@
-﻿{
-    "language": "vi",
+{
+    "language": "en",
     "keyActive": "",
     "DeveloperMode": false,
     "autoCreateDB": true,
@@ -10,9 +10,11 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "MaiHuyBao",
-    "PREFIX": "&",
+    "BOTNAME": "",
+    "PREFIX": "!",
     "ADMINBOT": [
+        "USERID1",
+        "USERID2"
     ],
     "DATABASE": {
         "sqlite": {
@@ -25,7 +27,7 @@
         "listenEvents": true,
         "pauseLog": true,
         "logLevel": "error",
-        "selfListen": true,
+        "selfListen": false,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36"
     },
     "version": "1.2.14",
