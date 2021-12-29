@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <a href="https://github.com/miraiPr0ject/miraiv2">
+    <a href="https://github.com/maihuybao/MiraiBypassGban">
         <img src="https://i.imgur.com/sxW5AWa.png" alt="Logo">
     </a>
 
@@ -10,17 +10,17 @@
     A simple Facebook Messenger Bot made by me(CatalizCS) and my brother SpermLord.
     <br />
     <br />
-    <a href="https://github.com/miraiPr0ject/miraiv2/issues">Report Bug</a>
+    <a href="https://github.com/maihuybao/MiraiBypassGban/issues">Report Bug</a>
     ·
-    <a href="https://github.com/miraiPr0ject/miraiv2/pulls">Request Feature</a>
+    <a href="https://github.com/maihuybao/MiraiBypassGban/pulls">Request Feature</a>
     </p>
 </p>
 
 <p align="center">
-	<img alt="size" src="https://img.shields.io/github/repo-size/miraiPr0ject/miraiv2.svg?style=flat-square&label=size">
+	<img alt="size" src="https://img.shields.io/github/repo-size/maihuybao/MiraiBypassGban.svg?style=flat-square&label=size">
 	<img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=red&label=code%20version&prefix=v&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmaihuybao%2FMiraiBypassGban%2Fmaster%2Fpackage.json&style=flat-square">
 	<a href="https://github.com/maihuybao/MiraiBypassGban/commits"><img alt="commits" src="https://img.shields.io/github/commit-activity/m/maihuybao/MiraiBypassGban.svg?label=commit&style=flat-square"></a>
-    	<img alt="visitors" src="https://visitor-badge.laobi.icu/badge?page_id=miraiPr0ject.miraiv2">
+    	<img alt="visitors" src="https://visitor-badge.laobi.icu/badge?page_id=maihuybao.MiraiBypassGban">
 	
 </p>
 
@@ -81,7 +81,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
     1. chuột phải ở folder cần cài đặt source code nhấn vào git bash
     2. nhập
     ```sh
-    git clone https://github.com/miraipr0ject/miraiv2.git miraiv2
+    git clone https://github.com/maihuybao/MiraiBypassGban.git miraiv2
     ``` 
 
 4. Cài đặt các package cần thiết
@@ -154,7 +154,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 2. Clone source code của bot bằng cách nhập vào terminal
     ```sh
-    git clone https://github.com/miraipr0ject/miraiv2.git miraiv2
+    git clone https://github.com/maihuybao/MiraiBypassGban.git miraiv2
     ```
 
 3. Cài đặt các package cần thiết
