@@ -9,4 +9,4 @@ appstate.json
 logs/
 node_modules/
 includes/data.sqlite
-fbstate.json
+appstate.json
